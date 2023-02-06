@@ -1,9 +1,15 @@
 #!/usr/bin/python3
-"""Module 5-base_geometry.
-Creates an empty class."""
+"""Module 6-base_geometry.
+Creates a class.
+"""
 
 
 class BaseGeometry:
-    """Empty class."""
+    """Class with public instance method."""
 
-    pass
+    def area(self):
+        """Raises an Exception with the message
+        'area() is not implemented'.
+        """
+
+        raise Exception('area() is not implemented')
